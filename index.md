@@ -1,12 +1,14 @@
-## Welcome to GitHub Pages
+## Resume
 
 You can use the [editor on GitHub](https://github.com/shangzuoyan/shangzuoyan.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 工作经历
+2016/01 - 至今
+江苏润和软件股份有限公司
+2013/05 - 2016/01
+宇龙酷派南京研究所
 
 ```markdown
 Syntax highlighted code block
