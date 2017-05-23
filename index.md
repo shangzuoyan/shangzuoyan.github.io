@@ -14,8 +14,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 2009/06 - 2013/05
 信源通科技南京研究所
 
-2009/06 - 2013/05
-南京师范大学南京研究所
+2006/09 - 2009/06
+南京师范大学虚拟地理环境国家重点实验室
+
+2003/07 - 2006/08
+夏新电子南京研究院
 
 
 ```markdown
