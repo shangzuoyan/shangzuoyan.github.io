@@ -11,6 +11,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 2013/05 - 2016/01
 宇龙酷派南京研究所
 
+2009/06 - 2013/05
+信源通科技南京研究所
+
+2009/06 - 2013/05
+南京师范大学南京研究所
+
+
 ```markdown
 Syntax highlighted code block
 
