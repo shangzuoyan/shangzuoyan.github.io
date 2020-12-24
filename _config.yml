@@ -7,7 +7,7 @@
 
 # Site settings
 title: Roy
-brief-intro: Connectivity S/W
+brief-intro: Connectivity & Network SW
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shangzuoyan.github.io" # the base hostname & protocol for your site
 
@@ -23,12 +23,12 @@ zhihu_username: shangzuoyan
 linkedIn_username: shangzuoyan
 ##dribbble_username:
 
-description_footer: 滔滔江水，连绵不绝，又如同黄河泛滥愈发不可收拾！
+description_footer: 不求最好！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-##duoshuo_shortname: #shangzuoyan
+duoshuo_shortname: #shangzuoyan
 disqus_shortname: shangzuoyan
 
 # statistic analysis 统计代码
