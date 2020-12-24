@@ -14,7 +14,7 @@ url: "https://shangzuoyan.github.io" # the base hostname & protocol for your sit
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username：shangzuoyan
+twitter_username: shangzuoyan
 facebook_username: shangzuoyan
 github_username:  shangzuoyan
 email: shangzuoyan@hotmail.com
