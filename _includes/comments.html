@@ -20,6 +20,7 @@
 {% endif %}
 
 {% if site.disqus_shortname %}
+<script id="dsq-count-scr" src="//shangzuoyan-github-io.disqus.com/count.js" async></script>
 <div id="disqus_thread"></div>
 <script>
     /**
@@ -36,7 +37,8 @@
         var d = document,
             s = d.createElement('script');
 
-        s.src = '//{{site.disqus_shortname}}.disqus.com/embed.js';
+        /*s.src = '//{{site.disqus_shortname}}.disqus.com/embed.js';*/
+        s.src = 'https://shangzuoyan-github-io.disqus.com/embed.js'; 
 
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
