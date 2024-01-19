@@ -1,0 +1,101 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Paul}
+\familyname{Blaga}
+\title{Resum\'{e}}               % optional, remove the line if not wanted
+\address{1, Kog\u{a}lniceanu Street}{400084 Cluj-Napoca, Romania}
+    % optional, remove the line if not wanted
+\phone{+40-264405300}                      % optional, remove the line if not wantedted
+\email{pablaga@cs.ubbcluj.ro}                      % optional, remove the line if not wanted
+%\homepage{homepage (optional)}                % optional, remove the line if not wanted
+\photo[64pt]{paul}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{All changes, even the most longed for, have their melancholy;
+  for what we leave behind us is a part of ourselves; we must
+  die to one life before we can enter another.\\ Anatole France}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{1985--1989}{BS}{{``Babe\c{s}-Bolyai''} University}{Cluj-Napoca}{}{Bachelor Degree in Mathematics}  % arguments 3 to 6 can be left empty
+\cventry{1989--1990}{MS}{University of Bucharest}{Bucharest}{}{Master Degree in Mathematics}
+%\cventry{1993-1997}{PhD}{West University of Timi\c{s}oara}{}{PhD in Mathematics}
+\section{Master thesis}
+\cvline{year}{1990}
+\cvline{title}{\emph{Singularities in General Relativity}}
+\cvline{supervisor}{Stere Ianu\c{s}}
+%\cvline{description}{\small Short thesis abstract}
+\section{PhD thesis}
+\cvline{year}{1997}
+\cvline{title}{\emph{Geometrical methods in General Relativity}}
+\cvline{advisor}{Mircea Puta} 
+\section{Experience}
+\subsection{Vocational}
+\cventry{1990--1997}{Teaching Assistant}{{``Babe\c{s}-Bolyai''}University}{Cluj-Napoca}{}{}
+\cventry{1997--2005}{Assistant Professor}{{``Babe\c{s}-Bolyai''}University}{Cluj-Napoca}{}{}
+\cventry{2005--today}{Associate Professor}{{``Babe\c{s}-Bolyai''}University}{Cluj-Napoca}{}{}
+\subsection{Miscellaneous}
+\cventry{2007--2010}{Production editor}{Prac\TeX}{Net}{}{}
+
+\section{Languages}
+\cvlanguage{Romanian}{Quite good}{My Mother's Tongue}
+\cvlanguage{English}{Average}{Studied it by myself}
+\cvlanguage{French}{Average}{Studied it in school}
+\cvlanguage{Russian}{Reading}{Studied it in school}
+\cvlanguage{Italian}{Good}{Studied it by myself}
+
+\section{Computer skills}
+\cvcomputer{Computer algebra}{Maple, Mathematica}{}{}
+\cvcomputer{Typesetting}{\LaTeX, MS-Office, Open Office}{}{}
+\cvcomputer{Programming}{C++, PovRay}{}{}
+
+\section{Interests}
+\cvline{Guitar}{\small Not a very good player}
+\cvline{Gardening}{\small Without a garden}
+\cvline{Computer graphics}{\small Why not?!}
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+\begin{thebibliography}{9}
+\bibitem{one}Paul A. Blaga, Horia F. Pop -- \emph{\LaTeXe}, Editura Tehnic\u{a}, Bucure\c{s}ti, 1999 (Romanian)
+\bibitem{two}Paul A. Blaga -- \emph{BRST Approaches to Gravity}, Risoprint, Cluj-Napoca, 2005
+\bibitem{three}Paul A. Blaga -- \emph{Lectures on Classical Differential Geometry}, Risoprint, Cluj-Napoca, 2005 
+\end{thebibliography}
+\end{document}
+
+
+%% end of file `template_en.tex'.
