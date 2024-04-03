@@ -62,9 +62,15 @@
 \newcommand{\datedsubsection}[2]{%
   \subsection[#1]{#1 \hfill #2}%
 }
+
+\newcommand{\xsubsection}[2]{%
+  \subsection[#1]{#1 \hfill #2}%
+}
+
 \newcommand{\datedline}[2]{%
   {\par #1 \hfill #2 \par}%
 }
+
 
 %\newcommand{\name}[1]{
 %  \raggedright{\Huge\scshape{#1}}
@@ -87,12 +93,9 @@
   \raggedright{\normalsize{#1}}
 }
 
-
 \newcommand{\homepage}[1]{
   \raggedright{\normalsize{#1}}
 }
-
-
 
 \newcommand{\pinfo}[2]{
   \begin{flushright}
@@ -106,6 +109,32 @@
     {\large\scshape{#1}}\\{\scshape{#2}}\\{\scshape{#3}}
   \end{flushright}
 }
+
+% makes a resume line with a header and a corresponding text
+% usage: \xblock{timeperiod}{position}{company}{department}
+\newcommand{\xblock}[4]{
+	\subsection*{{\parbox[c]{8em}{\textbf{#1}}}{\textbf{#2}}}
+  \subsection*{{\hspace*{8.25em}}{\textbf{#3}}\hspace{1em}{#4}}
+}
+
+\newcommand{\expblock}[4]{
+	\subsection*{{\parbox[c]{8em}{\textbf{#1}}}{\textbf{#2}}}
+  \subsection*{{\hspace*{8em}}{\textbf{#3}}\hspace{1em}{#4}}
+}
+\newcommand{\expblockex}[4]{
+	\subsection*{{\parbox[c]{8em}{\textbf{#1}}}{\textbf{#2}}}
+  \subsection*{{\hspace*{8em}}{\textbf{#3}}}
+  \subsection*{{\hspace*{8em}}{#4}}
+}
+
+% makes a resume line with a header and a corresponding text
+% usage: \edublock{timeperiod}{position}{school}{university}
+\newcommand{\edublock}[4]{
+	\subsection*{{\parbox[c]{8.25em}{\textbf{#1}}}{#2}}
+  \subsection*{{\hspace*{8em}} {#3} \hfill \textbf{#4}}
+}
+
+
 
 \newcommand{\contactInfo}[4]{
   \centerline{\sffamily\large{\ {#1} \textperiodcentered\ \ {#2}}
@@ -132,3 +161,14 @@
 % defines one's email (optional)
 % usage: \email{<email adress>}
 
+\newcommand{\spaceline}{
+  \vspace{\baselineskip}
+}
+
+\newcommand{\expitemx}[1]{
+  \hspace*{4em}\parbox[c]{\textwidth-4em}{#1}
+}
+
+\newcommand{\explistitemx}[1]{
+  \hspace*{1em}\parbox[c]{\textwidth-1em}{#1}
+}
