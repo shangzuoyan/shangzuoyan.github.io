@@ -117,6 +117,16 @@
   \subsection*{{\hspace*{8.25em}}{\textbf{#3}}\hspace{1em}{#4}}
 }
 
+\newcommand{\expblockcn}[4]{
+	\subsection*{{\parbox[c]{8em}{\textbf{#1}}}{\textbf{#2}}}
+  \subsection*{{\hspace*{8.25em}}{\textbf{#3}}\hspace{1em}{#4}}
+}
+\newcommand{\expblockexcn}[4]{
+	\subsection*{{\parbox[c]{8em}{\textbf{#1}}}{\textbf{#2}}}
+  \subsection*{{\hspace*{8.25em}}{\textbf{#3}}}
+  \subsection*{{\hspace*{8.25em}}{#4}}
+}
+
 \newcommand{\expblock}[4]{
 	\subsection*{{\parbox[c]{8em}{\textbf{#1}}}{\textbf{#2}}}
   \subsection*{{\hspace*{8em}}{\textbf{#3}}\hspace{1em}{#4}}
@@ -131,7 +141,7 @@
 % usage: \edublock{timeperiod}{position}{school}{university}
 \newcommand{\edublock}[4]{
 	\subsection*{{\parbox[c]{8.25em}{\textbf{#1}}}{#2}}
-  \subsection*{{\hspace*{8em}} {#3} \hfill \textbf{#4}}
+  \subsection*{{\hspace*{8em}} {#3} \hfill \textsc{#4}}
 }
 
 
@@ -169,6 +179,11 @@
   \hspace*{4em}\parbox[c]{\textwidth-4em}{#1}
 }
 
+\newcommand{\expitemcn}[1]{
+  \hspace*{1.5em}\parbox[c]{\textwidth-1.5em}{#1}
+}
+
 \newcommand{\explistitemx}[1]{
-  \hspace*{1em}\parbox[c]{\textwidth-1em}{#1}
+  %\hspace*{1em}\parbox[c]{\textwidth-1em}{#1}
+  #1
 }
