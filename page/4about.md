@@ -11,7 +11,12 @@ type: page
 
 ## 关于我
 
-<iframe src="https://githubbadge.appspot.com/shangzuoyan?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+|||
+|:--|:--|
+|![p1.png](../resume/images/resume_Page1.png)|![p1.png](../resume/images/resume-zh_CN_Page1.png)|
+|![p2.png](../resume/images/resume_Page2.png)|![p2.png](../resume/images/resume-zh_CN_Page2.png)|
+|![p3.png](../resume/images/resume_Page3.png)|![p3.png](../resume/images/resume-zh_CN_Page3.png)|
+|![p4.png](../resume/images/resume_Page4.png)|![p4.png](../resume/images/resume-zh_CN_Page4.png)|
 
 ## 联系我
 
