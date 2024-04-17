@@ -13,10 +13,18 @@ type: page
 
 |||
 |:--|:--|
-|![p1.png](../resume/images/resume_Page1.png)|![p1.png](../resume/images/resume-zh_CN_Page1.png)|
-|![p2.png](../resume/images/resume_Page2.png)|![p2.png](../resume/images/resume-zh_CN_Page2.png)|
-|![p3.png](../resume/images/resume_Page3.png)|![p3.png](../resume/images/resume-zh_CN_Page3.png)|
-|![p4.png](../resume/images/resume_Page4.png)|![p4.png](../resume/images/resume-zh_CN_Page4.png)|
+|![](../resume/images/resume_Page1.png)|![](../resume/images/resume-zh_CN_Page1.png)|
+|![](../resume/images/resume_Page2.png)|![](../resume/images/resume-zh_CN_Page2.png)|
+|![](../resume/images/resume_Page3.png)|![](../resume/images/resume-zh_CN_Page3.png)|
+|![](../resume/images/resume_Page4.png)|![](../resume/images/resume-zh_CN_Page4.png)|
+<a href="https://shangzuoyan.github.io/resume/images/resume_Page1.png" target="_blank"><img src="../resume/images/resume_Page1.png" />
+<br />
+<a href="https://shangzuoyan.github.io/resume/images/resume_Page2.png" target="_blank"><img src="../resume/images/resume_Page2.png" />
+<br />
+<a href="https://shangzuoyan.github.io/resume/images/resume_Page3.png" target="_blank"><img src="../resume/images/resume_Page3.png" />
+<br />
+<a href="https://shangzuoyan.github.io/resume/images/resume_Page4.png" target="_blank"><img src="../resume/images/resume_Page4.png" />
+<br />
 
 ## 联系我
 
