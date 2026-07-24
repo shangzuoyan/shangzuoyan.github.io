@@ -24,7 +24,7 @@ type: page
 1
 2
 <img src="../resume/images/resume_Page2.png" alt="">
-<img src="../../resume/images/resume_Page3.png" alt="">
+<img src="../resume/images/resume_Page3.png" alt="">
 
 <br />
 <img src="https://shangzuoyan.github.io/resume/images/resume_Page2.png" alt="">
