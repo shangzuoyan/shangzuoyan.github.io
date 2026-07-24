@@ -17,9 +17,14 @@ type: page
 |![](../resume/images/resume_Page2.png)|![](../resume/images/resume-zh_CN_Page2.png)|
 |![](../resume/images/resume_Page3.png)|![](../resume/images/resume-zh_CN_Page3.png)|
 |![](../resume/images/resume_Page4.png)|![](../resume/images/resume-zh_CN_Page4.png)|
+
 <img src="../resume/images/resume_Page1.png" />
 <br />
-<img src="https://shangzuoyan.github.io/resume/images/resume_Page2.png">
+<img src="/resume/images/resume_Page1.png" alt="">
+<img src="../../resume/images/resume_Page2.png" alt="">
+<br />
+<img src="https://shangzuoyan.github.io/resume/images/resume_Page2.png" alt="">
+
 
 <br />
 
